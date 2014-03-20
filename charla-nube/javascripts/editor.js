@@ -1,0 +1,1 @@
+!function(){Reveal.initialize({controls:!0,progress:!0,history:!0,rollingLinks:!1,slideNumber:!0,maxScale:3,theme:Reveal.getQueryHash().theme||"default",transition:Reveal.getQueryHash().transition||"default",dependencies:[]})}.call(this);

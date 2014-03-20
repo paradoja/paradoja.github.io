@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>Presentation</title>
+    <link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body class='index'>
+    <div class='reveal'>
+      <div class='state-background'>
+        <div class='slides'>
+          <section>
+            <h1>Desarrollo en 2014</h1>
+            <p class='addenda'>
+              <a href="mailto:paradoja@gmail.com">paradoja@gmail.com</a>
+              <br>
+              <a href="twitter.com/paradoja">@paradoja</a>
+              <br>
+              <a href="https://github.com/paradoja">https://github.com/paradoja</a>
+            </p>
+          </section>
+          <section>
+            <h2>¿Qué es la nube?</h2>
+            <img class="clean_img" src="images/clouds.svg" />
+          </section>
+          <section>
+            <section>
+              <h2>
+                Desarrollo hace 10&nbsp;+&nbsp;rand(10) años
+              </h2>
+            </section>
+            <section>
+              <pre><code class='data-trim'>&lt;?php3 mysql_connect(&quot;geo.caf.org&quot;,&quot;df99328942&quot;,&quot;tortilla&quot;);&#x000A;  mysql_select_db(&quot;bancotierra&quot;); @mysql_query(&quot;SET NAMES 'utf8'&quot;);&#x000A;  $query = mysql_query(&quot;SELECT * FROM ...&#x000A;  $row = mysql_fetch_array($query); ?&gt;&#x000A;&lt;tr&gt;&lt;?php3 foreach ($rows as $row) { ?&gt;&lt;td&gt;&lt;?php3 echo $row[0] ?&gt;&lt;/td&gt;&lt;td&gt;&#x000A;    &lt;?php3 switch ($row[1]) { ?&gt;&#x000A;    &lt;?php3 case 1: case 3: ?&gt;&lt;b&gt;&lt;?php3 echo fnkl($row[2]); ?&gt;&lt;/b&gt;&#x000A;    &lt;?php3 break; ?&gt;&#x000A;    &lt;?php3 case 2: ?&gt;&lt;?php3 $ary = ljg($row[2]); echo $ary[2]; ?&gt;&#x000A;    &lt;?php3 break; ?&gt; ...&#x000A;&lt;/tr&gt;</code></pre>
+            </section>
+            <section>
+              <pre><code class='data-trim'>&lt;servlet&gt;&lt;servlet-name&gt;org.apache.cocoon.Cocoon&lt;/servlet-name&gt;&#x000A;&lt;servlet-class&gt;org.apache.cocoon.Cocoon&lt;/servlet-class&gt;&lt;init-param&gt;&#x000A;&lt;param-name&gt;properties&lt;/param-name&gt;&lt;param-value&gt;&#x000A;/usr/lib/jakarta-tomcat/conf/cocoon.properties&lt;/param-value&gt;&#x000A;&lt;/init-param&gt;&lt;/servlet&gt;&lt;servlet-mapping&gt;</code></pre>
+              <pre><code class='data-trim'>public class SimpleBeanFactoryAwareAspectInstanceFactory&#x000A;        implements AspectInstanceFactory, BeanFactoryAware {&#x000A;    ...</code></pre>
+            </section>
+          </section>
+          <section>
+            <h3>
+              ¿Qué ha ido cambiando?
+              <br>
+              ¿Por qué?
+            </h3>
+          </section>
+          <section>
+            <table class='full-table'>
+              <tr>
+                <td>
+                  Agile
+                </td>
+                <td class='fragment'>
+                  TDD
+                </td>
+                <td class='fragment'>
+                  Kanban カンバン
+                </td>
+              </tr>
+              <tr>
+                <td class='fragment'>
+                  WWW como
+                  <br>
+                  plataforma
+                </td>
+                <td class='fragment'>
+                  <img class="clean_img" src="images/git-logo.svg" />
+                </td>
+                <td class='fragment'>
+                  <img class="clean_img" src="images/octocat.svg" />
+                </td>
+              </tr>
+              <tr>
+                <td class='fragment'>
+                  <img class="clean_img" src="images/rails-logo.svg" />
+                </td>
+                <td class='fragment'>
+                  <img class="clean_img" src="images/heroku-logo.png" />
+                </td>
+                <td class='fragment'>
+                  APIs
+                  <br>
+                  para todo
+                </td>
+              </tr>
+              <tr>
+                <td class='fragment unique-row' colspan='3'>
+                  ...
+                </td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <ul>
+              <li>
+                Cambios sociales y culturales
+                <span class='fragment'>
+                  ... que llevan a cambios técnicos
+                </span>
+              </li>
+              <li class='fragment'>
+                De una aplicación grande a muchas chicas interconectadas
+              </li>
+              <li class='fragment'>
+                Muchos servicios gestionados por terceros
+                <table class='full-table fragment'>
+                  <tr>
+                    <td>
+                      Alojamiento
+                    </td>
+                    <td>
+                      Gestión del tráfico/CDNs...
+                    </td>
+                    <td>
+                      Cache
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      BBDD
+                    </td>
+                    <td>
+                      Backups/seguridad
+                    </td>
+                    <td>
+                      Logs/monitorización/análisis
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Búsqueda
+                    </td>
+                    <td>
+                      Correo
+                    </td>
+                    <td>
+                      Colas de procs.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      BBDD
+                    </td>
+                    <td>
+                      Backups/seguridad
+                    </td>
+                    <td>
+                      Pasarelas de pago
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class='unique-row' colspan='3'>
+                      ...
+                    </td>
+                  </tr>
+                </table>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Cosas a tener en cuenta</h3>
+            <p>
+              dependencia, complejidad, blah, blah
+            </p>
+            <p>
+              mejor diseño, se prueba mejor, coste...
+            </p>
+          </section>
+          <section>
+            <h3>Igual algo más...</h3>
+          </section>
+          <section>
+            <h4>Cosas aburridas</h4>
+            <ul>
+              <li>
+                <a href="http://commons.wikimedia.org/wiki/File:Cloud_computing_icon.svg">Imagen</a>
+                de la nube de
+                <a href="http://commons.wikimedia.org/wiki/User_talk:%CE%A0rate">Πrate</a>
+              </li>
+              <li>
+                <a href="http://git-scm.com/downloads/logos">Logo de git</a>
+                de
+                <a href="http://twitter.com/jasonlong">Jason Long</a>
+              </li>
+            </ul>
+            <hr>
+            <h3>Preguntas</h3>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="javascripts/all.js" type="text/javascript"></script>
+  </body>
+</html>
