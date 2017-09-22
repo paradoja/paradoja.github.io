@@ -1,0 +1,30 @@
+body * {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+body .reveal section img {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+footer.corner {
+  font-size: 25% !important;
+  text-align: left;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.mono {
+  font-family: monospace !important;
+}
+
+.special {
+  color: #e63c1e;
+}
+
+.brand {
+  color: #e63c1e;
+  text-transform: lowercase;
+}
